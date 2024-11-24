@@ -1,0 +1,45 @@
+Question3 : Python Control Statements (20 Marks)
+You are given a list of integers:
+
+
+numbers = [12, 7, 19, 24, 5, 17, 28, 13]
+Perform the following tasks using control statements in Python:
+
+Q1 Even or Odd (5 Marks)
+Write a Python function that iterates through the list and prints whether each number is even or odd.
+
+Q2 Sum of Numbers (5 Marks)
+Using a while loop, write a Python program that calculates and prints the sum of all numbers in the list.
+
+Q3 Maximum and Minimum (5 Marks)
+Write a Python function find_max_min(numbers) that uses if-else statements to find and return the maximum and minimum numbers from the list.
+
+Q4 Prime Numbers (5 Marks)
+Write a Python function find_primes(numbers) that uses a nested for loop and if-else statements to find and return a list of prime numbers from the given list.
+
+
+
+
+
+Question:
+A company wants to create a utility program that helps employees track their monthly expenses. 
+You are tasked with writing a Python program that includes several functions to calculate 
+different aspects of the expenses. Answer the following sub-questions:
+
+a) Define a function calculate_total_expenses() that takes a list of expenses (integers or floats) 
+as input and returns the total sum of expenses.
+(5 Marks)
+
+b) Define a function calculate_average_expense() that calculates the average expense from a list of expenses. 
+Make sure to handle cases where the list might be empty.
+(5 Marks)
+
+c) Write a function find_maximum_expense() that takes a list of expenses and 
+returns the highest expense. Ensure you handle the case when the list is empty by returning None.
+(5 Marks)
+
+d) Combine all the above functions in a program. The program should:
+
+Prompt the user to enter their monthly expenses (allowing multiple inputs).
+Calculate and display the total, average, and maximum expense using the functions you have written.
+(5 Marks)

@@ -39,6 +39,36 @@
 # vote = ("no", "yes")[age>=18]
 # print(vote)
 
-salary = int(input("salary:"))
-tax = salary*(0.2,0.1) [salary>=5000]
-print(tax)
+# salary = int(input("salary:"))
+# tax = salary*(0.2,0.1) [salary>=5000]
+# print(tax)
+
+
+#***********************prtaice quetsion***********************
+# num1 = int(input("Enter the Number"))
+# if(num1%2==0):
+#     print("Even")
+# else:
+#     print("Odd")
+
+
+#*****************************************************************************
+# num1 = int(input("Enter the 1 Number"))
+# num2 = int(input("Enter the 2 Number"))
+# num3 = int(input("Enter the 3 Number"))
+# num4 = int(input("Enter the 4 Number"))
+# if(num1>num2 and num1>num3 and num1>num4):
+#     print("GREATEST IS :",num1)
+# elif(num2>num1 and num2>num3 and num2>num4):
+#     print("GREATEST IS :",num2)
+# elif(num3>num1 and num3>num2 and num3>num4):
+#     print("GREATEST IS :",num3)
+# else:
+#     print("GREATEST IS:",num4)
+
+
+num1 = int(input("Enter the Number"))
+if(num1%7==0):
+    print(num1,"is multiple of 7")
+else:
+    print(num1,"is not a multiple of 7")

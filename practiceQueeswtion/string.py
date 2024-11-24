@@ -9,3 +9,23 @@
 # str1= "Apple"
 # print(str1[-3:-1]) #pl
 # print(str1[-1:-3]) #pl
+
+# str1 ="apple"
+# str2 = "applii"
+# print(str1 < str2)
+# name = "vikash"
+# age = 21
+# print(f"my name is {name} and my age is {age}")
+# print("my name is",name ,"and my age is ",age)
+# print("my name is {} and my age is {}" .format(name,age))
+# print("my name is %s and my age is %d"%(name, age))
+# import sys
+# x = 1.002
+# size = sys.getsizeof(x)
+# print(size)
+# print(id(x))
+# print(round(x))
+
+scores = {"Alice": 10, "Bob": 15, "Charlie": 7}
+v = dict(sorted(scores.items()))
+print(v)
